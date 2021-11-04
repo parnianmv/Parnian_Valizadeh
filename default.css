@@ -1,0 +1,72 @@
+body{
+	background-color:#F4EFED;
+}
+header{
+	border: 2px dotted GrayText;
+	text-align: center;
+	border-radius: 20px;
+	
+	background-color: #E7F289;
+}
+
+header form{
+	text-align: left;
+
+}
+#search:focus{
+	border: 3px solid blue;
+}
+
+h3{
+	color : red;
+}
+div{
+	background-color: #F9F0E5;
+}
+[submit]:hover{
+	background-color: skyblue;
+}
+#romanItaly_img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding-right: 10px
+}
+
+ol{
+	border: 2px solid GrayText;
+	width: 150px;
+	height: 150px;
+	
+}
+
+ol li a{
+	text-decoration: none;
+}
+
+table{
+	border: 2px solid GrayText;
+}
+
+table th + th{
+	padding: 10px;
+	border-left: 2px solid GrayText;
+	
+}
+table th{
+	border-bottom: 2px solid GrayText;
+}
+table td{
+	padding: 10px;
+	border-bottom: 2px solid GrayText;
+	border-left: 2px solid GrayText;
+}
+table tr:nth-child(2),
+table tr:nth-child(4){
+	background-color: #CCCBCA;
+}
+
+footer{
+	border-top: 2px dashed GrayText;
+	padding: 10px;
+}
