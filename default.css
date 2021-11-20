@@ -70,3 +70,21 @@ footer{
 	border-top: 2px dashed GrayText;
 	padding: 10px;
 }
+
+.parts{
+	display: flex;
+}
+
+.parts div{
+	margin: 10px;
+}
+
+@media only screen and (max-width: 600px){
+	.parts{
+		flex-wrap: wrap;
+	}
+	.parts div{
+		margin: 0;
+	}
+}
+
